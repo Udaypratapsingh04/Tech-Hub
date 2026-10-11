@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TECH HUB
 
 A complete laptop and accessories store: a redesigned storefront plus a real backend
@@ -95,3 +96,7 @@ on Windows, `gunicorn "backend:create_app()"` on Linux/macOS.
 * No emails are sent (order confirmations, password reset) - a natural next step.
 * To add a product image, put the file in `frontend/assets/img/products/` and use its path in the admin form.
   `scripts/optimize_images.py` shows how the original PNGs were converted to small WebP files.
+=======
+# Tech-Hub
+Tech Hub – A modern and responsive laptop shopping website where users can explore laptop models, view specifications, compare prices, and enjoy a user-friendly online shopping experience.
+>>>>>>> d2f81ba371a5b814886c57c351ba09e248da85c5
