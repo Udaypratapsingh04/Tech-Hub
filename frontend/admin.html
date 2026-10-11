@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Admin | TECH HUB</title>
+<meta name="description" content="Store administration.">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&amp;family=Schibsted+Grotesk:wght@400..700&amp;display=swap">
+<link rel="stylesheet" href="/assets/css/styles.css">
+<script src="/assets/js/theme.js"></script>
+</head>
+<body data-page="admin">
+<div id="site-header"></div>
+<main id="main" class="container">
+  <div class="page-head"><h1 class="page-title">Admin dashboard</h1></div>
+  <div class="tabs" role="tablist" aria-label="Admin sections">
+    <button class="tab" role="tab" id="atab-overview" data-tab="overview">Overview</button>
+    <button class="tab" role="tab" id="atab-orders" data-tab="orders">Orders</button>
+    <button class="tab" role="tab" id="atab-products" data-tab="products">Products</button>
+  </div>
+  <section id="admin-root" class="section-tight" role="tabpanel"></section>
+</main>
+<div id="site-footer"></div>
+<script type="module" src="/assets/js/admin.js"></script>
+</body>
+</html>

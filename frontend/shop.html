@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shop | TECH HUB</title>
+<meta name="description" content="Browse and filter laptops and accessories.">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&amp;family=Schibsted+Grotesk:wght@400..700&amp;display=swap">
+<link rel="stylesheet" href="/assets/css/styles.css">
+<script src="/assets/js/theme.js"></script>
+</head>
+<body data-page="shop">
+<div id="site-header"></div>
+<main id="main" class="container">
+  <div class="page-head"><nav class="breadcrumb" id="crumbs" aria-label="Breadcrumb"></nav>
+    <h1 class="page-title" id="shop-title">Shop</h1><p class="muted" id="shop-sub"></p></div>
+  <div class="shop-layout">
+    <aside class="filters" id="filters" aria-label="Filters"></aside>
+    <section aria-label="Products">
+      <div class="shop-toolbar">
+        <button class="btn btn-secondary btn-sm filters-toggle" id="filters-open" type="button"><svg class="icon icon-sm" aria-hidden="true"><use href="#i-filter"/></svg>Filters</button>
+        <p id="result-count" class="muted" aria-live="polite"></p>
+        <label class="row"><span class="muted">Sort by</span>
+          <select class="select" id="sort">
+            <option value="featured">Featured</option><option value="price_asc">Price: low to high</option>
+            <option value="price_desc">Price: high to low</option><option value="newest">Newest</option>
+            <option value="rating">Top rated</option><option value="name">Name</option>
+          </select></label>
+      </div>
+      <div class="active-filters" id="active-filters"></div>
+      <div class="grid-products" id="grid"></div>
+      <nav class="pagination" id="pagination" aria-label="Pagination"></nav>
+    </section>
+  </div>
+</main>
+<div id="site-footer"></div>
+<script type="module" src="/assets/js/shop.js"></script>
+</body>
+</html>
